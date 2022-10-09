@@ -1,10 +1,9 @@
 /* 
     Colors:
-    Blue: #47A8D2
-    Teal: #63D5DD
-    Darker Teal: #3F93AD
-    Light Tan: #F3D3CE
-    Dark Tan: #A56D4A
+    Dark Brown: #231008
+    Medium Brown: #784D2D
+    Light Brown: #CBA07A
+    
 
 
 */
@@ -36,12 +35,17 @@ body {
 .padded-2       {  padding: 2rem;    }
 
 .bg-dark{
-    background-color: #3F93AD;
+    background-color: #231008;
+    color: white;
+}
+
+.bg-medium{
+    background-color: #784D2D;
     color: white;
 }
 
 .bg-light{
-    background-color: #8aa8b5;
+    background-color: #CBA07A;
     color: white;
 }
 
@@ -66,9 +70,9 @@ body {
 
 /* ------------------------------- Typography Styles -------------------------- */
 
-.featured-text-dark        { color: #3F93AD; }
-.featured-text-light       { color: #63D5DD; }
-.featured-text-teal        { color: #47A8D2; }
+.featured-text-dark        { color: #231008; }
+.featured-text-medium      { color: #784D2D; }
+.featured-text-light       { color: #CBA07A; }
 .featured-text-tan         { color: #F3D3CE; }
 .featured-text-body        { color:rgb(11, 15, 28); }
 .white-text                { color: white;   }
@@ -91,11 +95,11 @@ body {
 
 .subtitle {
     font-size: 1.2rem;
-    color: #3F93AD;
+    color: #784D2D;
 }
 
 .highlight {
-    background-color: rgba(163, 169, 173, .5);
+    background-color: rgba(173, 169, 163, 0.5);
     display: inline-block;
     padding: 0.5rem;
     margin: 2px;
@@ -209,7 +213,7 @@ header h1 {
 .quote-icon {
     font-size: 6rem;
     display: inline-block;
-    color: #3F93AD;
+    color: #784D2D;
     line-height: 1;
 }
 
