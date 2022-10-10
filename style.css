@@ -198,6 +198,36 @@ header h1 {
     background-position: 50% 50%;
 }
 
+/* ------------------------Card Styles------------------- */
+
+.card {
+    background-color: #CBA07A;
+    padding: 0;
+    margin: 0.3rem;
+  }
+  
+  .bg-image span {
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  
+  .post-info {
+    padding: 1rem;
+  }
+  
+  .date {
+    font-size: 0.8rem;
+    color: rgb(90,90,90);
+  }
+  
+  .card a {
+    display: inline-block;
+    margin-top: 1rem;
+  }
+  
+
+  
+
 /* ----------------------- Icon Grid------------------ */
 
 .fas {
@@ -375,5 +405,10 @@ textarea:focus {
 
     h2 {
         font-size: 2rem;
+    }
+    
+    .latest-news {
+      overflow-x: auto;
+      flex-wrap: nowrap;
     }
   }
