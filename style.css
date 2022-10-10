@@ -57,6 +57,11 @@ body {
 .padding-b-2  {  padding-bottom: 2rem;  }
 .padding-t-2  {  padding-top: 2rem;     }
 
+.margin-l-1  {  margin-left: 1rem;         }
+.margin-r-1  {  margin-right: 1rem;        }
+.margin-t-1  {  margin-top: 1rem;          }
+.margin-b-1  {  margin-bottom: 1rem;       }
+
 .capped-width { max-width: 1100px; margin: auto; }
 
 .tall-30         { min-height: 30vh; }
@@ -160,6 +165,14 @@ a:hover{
 .bg-image {
     background-image: url(/images/adventure-alula-dates.jpg);
     background-size: cover;
+}
+
+.bg-padded { 
+    padding-bottom: 30%; 
+}
+
+.map {
+    min-height: 45vh;
 }
 
 .landscape { padding-bottom: 65%;  }
@@ -278,6 +291,10 @@ textarea:focus {
     appearance: none;
     border: 2px solid #8aa8b5;
     color:#8aa8b5;
+}
+
+.copyright {
+    font-size:0.5rem;
 }
 
 
