@@ -24,7 +24,7 @@
 
 body {
     font-family: 'Catamaran', sans-serif;
-    color:rgb(11, 15, 28);
+    color:rgb(0, 0, 0);
 }
 
 .padded-sm      {  padding: 2.5%;    }
@@ -46,7 +46,7 @@ body {
 
 .bg-light{
     background-color: #CBA07A;
-    color: white;
+    color: #231008;
 }
 
 .padding-l-0  {  padding-left: 0;         }
@@ -73,8 +73,8 @@ body {
 .featured-text-dark        { color: #231008; }
 .featured-text-medium      { color: #784D2D; }
 .featured-text-light       { color: #CBA07A; }
-.featured-text-tan         { color: #F3D3CE; }
-.featured-text-body        { color:rgb(28, 22, 11); }
+
+.featured-text-body        { color:rgb(0, 0, 0); }
 .white-text                { color: white;   }
 
 .left     {  text-align: left;     }
@@ -151,7 +151,7 @@ a{
 }
 
 a:hover{
-    color:#F3D3CE;
+    color:#CBA07A;
 }
 
 
@@ -168,20 +168,20 @@ a:hover{
 
 /* ------------------------------- Header Styles ---------------------------- */
 
-header {
+/* header {
     background-image: url("/images/adventure-alula-hegra.jpg");
     background-size: cover;
     background-position: center;
-}
+} */
 
-header h3 {
+/* header h3 {
     font-size: 6rem;
     line-height: 1;
 }
 
 header h1 {
     margin-bottom: 20rem;
-}
+} */
 
 /* --------------- Background Images ----------------- */
 
