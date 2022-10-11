@@ -1,8 +1,24 @@
 /* 
     Colors:
+    Initial:
     Dark Brown: #231008
     Medium Brown: #784D2D
     Light Brown: #CBA07A
+
+    DARK Blue: #203940
+    Blue: #335C67
+    LIGHT Blue: #5397a9
+
+    MUSTARD Yellow: #ebc700
+    Light Tan: #FFF3B0
+
+    Medium Tan: #E09F3E
+
+    LIGHT Accent Red: #bd3233
+    Accent Red: #9E2A2B
+    DARK Accent Red: #511516
+
+    Dark Red: #540B0E
     
 
 
@@ -39,17 +55,27 @@ body {
 .padded-2       {  padding: 2rem;    }
 
 .bg-dark{
-    background-color: #231008;
+    background-color: #540B0E;
     color: white;
 }
 
 .bg-medium{
-    background-color: #784D2D;
+    background-color: #E09F3E;
+    color: white;
+}
+
+.bg-blue{
+    background-color: #335C67;
+    color: white;
+}
+
+.bg-red{
+    background-color: #9E2A2B;
     color: white;
 }
 
 .bg-light{
-    background-color: #CBA07A;
+    background-color: #FFF3B0;
     color: #231008;
 }
 
