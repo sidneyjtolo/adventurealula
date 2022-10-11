@@ -105,9 +105,10 @@ body {
 
 /* ------------------------------- Typography Styles -------------------------- */
 
-.featured-text-dark        { color: #231008; }
-.featured-text-medium      { color: #784D2D; }
-.featured-text-light       { color: #CBA07A; }
+.featured-text-dark        { color: #540B0E; }
+.featured-text-medium      { color: #E09F3E; }
+.featured-text-blue        { color: #335C67; }
+.featured-text-light       { color: #FFF3B0; }
 
 .featured-text-body        { color:rgb(0, 0, 0); }
 .white-text                { color: white;   }
@@ -186,8 +187,13 @@ a{
 }
 
 a:hover{
-    color:#CBA07A;
+    color:#9E2A2B;
 }
+
+a span:hover{
+    color:#9E2A2B;
+}
+
 
 
 /* ---------------- Image Styles ---------------- */
@@ -207,7 +213,7 @@ img {
 }
 
 .map {
-    min-height: 45vh;
+    min-height: 70vh;
 }
 
 .landscape { padding-bottom: 65%;  }
@@ -243,13 +249,18 @@ header h1 {
 
 .bg-hegra {
     background-image: url('/images/adventure-alula-hegra.jpg');
-    background-position: 50% 50%;
+    background-position: 100% 30%;
+}
+
+.bg-hegra-landscape {
+    background-image: url('/images/adventure-alula-hegra-tomb-landscape.jpg');
+    background-position: 100% 20%;
 }
 
 /* ------------------------Card Styles------------------- */
 
 .card {
-    background-color: #784D2D;
+    background-color: #E09F3E;
     color: white;
     padding: 0;
     padding-top: 1.5rem;
@@ -334,6 +345,7 @@ textarea:focus {
     font-size:0.5rem;
 }
 
+/* ------------------------ Footer Styles ------------------------ */
 
 /* ------------------------ MISC ------------------------ */
   /* this is a line element */
