@@ -123,15 +123,17 @@ body {
 .font-weight-extra-bold  { font-weight: 800;}
 
 .small-text                { font-size: 1rem; }
-.medium-text                { 
-    font-size: 2.2rem; 
+.statement-text            { font-size: 1.7rem; }
+.medium-text               { 
+    font-size: 2.5rem; 
     line-height: 1.1;
+    margin-bottom: 1.5rem;
 }
 .big-text                  { font-size: 5rem; }
 
 .subtitle {
     font-size: 1.2rem;
-    color: #784D2D;
+    color: #FFF3B0;
 }
 
 .highlight {
@@ -263,25 +265,23 @@ header h1 {
     background-color: #E09F3E;
     color: white;
     padding: 0;
-    padding-top: 1.5rem;
-    margin: 0.3rem;
     border-radius: 5%;
   }
   
 
   .card img {
-    margin-top: 2rem;
-    border-bottom-left-radius: 5%;
-    border-bottom-right-radius: 5%;
+    margin-bottom: 2rem;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
   }
 
   .card h3 {
     font-size: 1.8rem;
+    margin-bottom: 1.2rem;
   }
 
   .card a {
     display: inline-block;
-    margin-top: 1rem;
   }
   
   .card:hover {
@@ -472,8 +472,15 @@ textarea:focus {
         padding-bottom: 7%;
       }
       
+      .card {
+          border-radius: 5%;
+      }
+
       .card img {
-      margin-top: -25%;
+      margin-top: 0;
+      border-top-left-radius: 5%;
+      border-top-right-radius: 5%;
+     
       }
       
       .mob-padded-0 {
