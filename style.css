@@ -266,9 +266,21 @@ header h1 {
     background-position: 100% 20%;
 }
 
+.bg-map {
+    background-image: url('/images/simple-line-map-alula.png');
+    background-position: 20% 80%;
+}
+
 /* ------------------------Card Styles------------------- */
 
 .card {
+    background-color: #E09F3E;
+    color: white;
+    padding: 0;
+    border-radius: 5%;
+  }
+
+  .experiences-card {
     background-color: #E09F3E;
     color: white;
     padding: 0;
@@ -280,6 +292,10 @@ header h1 {
     margin-bottom: 2rem;
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
+  }
+
+  .experiences-card img {
+    margin-bottom: 2rem;
   }
 
   .card h3 {
