@@ -252,8 +252,21 @@ header h1 {
     background-image: url('/images/adventure-alula-dates.jpg');
     background-position: 50% 50%;
 }
-.bg-trees {
-    background-image: url('/images/adventure-alula-trees.jpg');
+
+.bg-oranges {
+    background-image: url('/images/adventure-alula-oranges.jpg');
+}
+
+.bg-palm-tops {
+    background-image: url('/images/adventure-alula-palm-tops.jpg');
+}
+
+.bg-trees-balloon {
+    background-image: url('/images/adventure-alula-trees-balloon-view.jpg');
+}
+
+.bg-close-palm-tops {
+    background-image: url('/images/adventure-alula-close-up-palm-tops.jpg');
 }
 
 .bg-hegra {
@@ -261,9 +274,74 @@ header h1 {
     background-position: 100% 30%;
 }
 
+.bg-hegra-tomb {
+    background-image: url('/images/adventure-alula-hegra-tomb.jpg');
+}
+
+.bg-hegra-tomb-naika {
+    background-image: url('/images/adventure-alula-hegra-naika.jpg');
+}
+
 .bg-hegra-landscape {
     background-image: url('/images/adventure-alula-hegra-tomb-landscape.jpg');
     background-position: 100% 20%;
+}
+
+.bg-naika-1 {
+    background-image: url('/images/adventure-alula-naika-1.jpg');
+}
+
+.bg-naika-2 {
+    background-image: url('/images/adventure-alula-naika-2.jpg');
+}
+
+.bg-kuza {
+    background-image: url('/images/adventure-alula-kuza-1.jpg');
+}
+
+.bg-naika-1 {
+    background-image: url('/images/adventure-alula-naika-1.jpg');
+}
+
+.bg-old-town {
+    background-image: url('/images/adventure-alula-old-town.jpg');
+    background-position: 45% 55%;
+}
+
+.bg-old-town-alley {
+    background-image: url('/images/adventure-alula-old-town-alley.jpg');
+}
+
+.bg-old-town-deco {
+    background-image: url('/images/adventure-alula-old-town-decoration.jpg');
+}
+
+.bg-heritage-trail {
+    background-image: url('/images/adventure-alula-heritage-trail.jpg');
+    background-position: 40% 65%;
+}
+
+.bg-oasis-seats {
+    background-image: url('/images/adventure-alula-oasis-seats.jpg');
+    background-position: 25% 95%;
+}
+
+.bg-pk-view {
+    background-image: url('/images/adventure-alula-pk-view.jpg');
+    background-position: 65% 50%;
+}
+
+.bg-hot-air-balloon {
+    background-image: url('/images/adventure-alula-hot-air-balloons.jpg');
+    background-position: 100% 90%;
+}
+
+.bg-red-rug {
+    background-image: url('/images/adventure-alula-red-rug.jpg');
+}
+
+.bg-blue-rug {
+    background-image: url('/images/adventure-alula-blue-rug.jpg');
 }
 
 .bg-map {
@@ -274,24 +352,24 @@ header h1 {
 /* ------------------------Card Styles------------------- */
 
 .card {
-    background-color: #E09F3E;
-    color: white;
+    /* background-color: #E09F3E; */
+    color: #2D6E79;
     padding: 0;
-    border-radius: 5%;
+    /* border-radius: 5%; */
   }
 
   .experiences-card {
-    background-color: #E09F3E;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 0;
-    border-radius: 5%;
+    /* border-radius: 5%; */
   }
   
 
   .card img {
     margin-bottom: 2rem;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
+    /* border-top-left-radius: 5%;
+    border-top-right-radius: 5%; */
   }
 
   .experiences-card img {
@@ -308,7 +386,12 @@ header h1 {
   }
   
   .card:hover {
-    box-shadow: 0 20px 25px -5px rgba(0,0,0,.2),0 10px 10px -5px rgba(0,0,0,.2)
+    box-shadow: 0 20px 25px -5px rgba(0,0,0,.2),0 10px 10px -5px rgba(0,0,0,.2);
+  }
+
+  .experiences-card:hover {
+    box-shadow: 0 20px 25px -5px rgba(0,0,0,.2),0 10px 10px -5px rgba(0,0,0,.2);
+    color: black;
   }
   
 
