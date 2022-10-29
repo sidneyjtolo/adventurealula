@@ -251,10 +251,12 @@ header h1 {
 .bg-dates {
     background-image: url('/images/adventure-alula-dates.jpg');
     background-position: 50% 50%;
+    background-size: cover;
 }
 
 .bg-oranges {
     background-image: url('/images/adventure-alula-oranges.jpg');
+    background-size: cover;
 }
 
 .bg-palm-tops {
@@ -338,10 +340,12 @@ header h1 {
 
 .bg-red-rug {
     background-image: url('/images/adventure-alula-red-rug.jpg');
+    background-size: cover;
 }
 
 .bg-blue-rug {
     background-image: url('/images/adventure-alula-blue-rug.jpg');
+    background-size: cover;
 }
 
 .bg-map {
@@ -578,20 +582,28 @@ textarea:focus {
         padding-bottom: 7%;
       }
       
-      .card {
+      /* .card {
           border-radius: 5%;
-      }
+      } */
 
       .card img {
       margin-top: 0;
-      border-top-left-radius: 5%;
-      border-top-right-radius: 5%;
+      /* border-top-left-radius: 5%;
+      border-top-right-radius: 5%; */
      
       }
       
       .mob-padded-0 {
         padding-left: 0;
         padding-right: 0;
+      }
+
+      .mob-padded-r-2 {
+        padding-right: 2rem;
+      }
+
+      .mob-padded-l-2 {
+        padding-left: 2rem;
       }
     
 
