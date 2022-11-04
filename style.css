@@ -340,14 +340,17 @@ header h1 {
 
 .bg-old-town-1 {
     background-image: url('/images/adventure-alula-old-town-1.jpg');
+    background-size: cover;
 }
 
 .bg-old-town-2 {
     background-image: url('/images/adventure-alula-old-town-2.jpg');
+    background-size: cover;
 }
 
 .bg-old-town-3 {
     background-image: url('/images/adventure-alula-old-town-3.jpg');
+    background-size: cover;
 }
 
 .bg-old-town-alley-night {
@@ -450,6 +453,8 @@ header h1 {
 
 .bg-swing-1 {
     background-image: url('/images/adventure-alula-oasis-swing-1.jpg');
+    background-size: cover;
+    background-position: 45% 75%;
 }
 
 .bg-swing-2 {
@@ -458,10 +463,6 @@ header h1 {
 
 .bg-swing-3 {
     background-image: url('/images/adventure-alula-oasis-swing-3.jpg');
-}
-
-.bg-swing-1 {
-    background-image: url('/images/adventure-alula-.jpg');
 }
 
 .bg-pk-view {
